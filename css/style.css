@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&family=Open+Sans&family=Kumbh+Sans&family=Ubuntu+Mono:wght@700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+}
+#navbar ul {
+	list-style-type: none;
+	display: flex;
+	height: 60px;
+	align-items: center;
+	justify-content: flex-end;
+}
+.nav-link {
+	color: #2d3436;
+	text-decoration: none;
+	font-size: 1.5rem;
+	border-radius: 15px;
+	text-align: center;
+	padding: 10px 15px;
+	margin-right: 50px;
+	font-family: "Nova Round", cursive;
+	font-weight: 600;
+}
+.nav-link:hover {
+	color: rgb(0, 98, 255);
+}
+header::before {
+	content: " ";
+	background: rgb(0, 98, 255);
+	background: linear-gradient(90deg, rgb(0, 98, 255) 0%, rgb(97, 239, 255) 100%);
+	height: 500px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 0 0 30px 30px;
+	border-bottom: 2px solid #b2bec3;
+}
+.head-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.left {
+	height: 440px;
+	text-align: center;
+}
+.left img {
+	/* height: 380px; */
+	max-height: 100%;
+	max-width: 100%;
+	padding: 25px;
+	box-sizing: border-box;
+}
+.right {
+	padding: 6px;
+}
+.title {
+	margin: 2rem 0;
+}
+.container {
+	background: linear-gradient(0deg, #81ecec33, white);
+	padding: 30px 0 100px 0;
+}
+
+#branch-text {
+	text-align: center;
+	text-transform: uppercase;
+	/* font-family: Arial, Helvetica, sans-serif; */
+	margin: 30px 0;
+}
+.grid-1 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/* margin-top: 30px; */
+}
+.grid-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 70px;
+}
+.branch-box {
+	max-width: 25vw;
+	min-height: 30vw;
+	background-color: #ff7675;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.branch-box img {
+	text-align: center;
+	width: 80%;
+	border-radius: 15px;
+}
+.branch-box button {
+	padding: 10px 12px;
+	background: #ffeaa7;
+	border: #636e72;
+	border-radius: 15px;
+	outline: none;
+	min-width: 35%;
+	font-family: "Ubuntu Mono", monospace;
+	font-size: 1.2rem;
+}
+
+/* Style of footer part */
+footer {
+	background-color: #e3ecef;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 4% 2%;
+	overflow: auto;
+	line-height: 25px;
+}
+.footer-left {
+	float: left;
+	width: 47%;
+	font-family: "Kumbh Sans", sans-serif;
+	display: block;
+}
+.footer-right {
+	float: right;
+	width: 30%;
+	font-family: "Kumbh Sans", sans-serif;
+	display: block;
+}
+.footer-right a {
+	text-decoration: none;
+	color: black;
+}
+footer h2 {
+	margin-bottom: 1em;
+}
+/* End of Footer */
+
+/* Semester box */
+.sem-box {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 3rem;
+}
+.sem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sem-link {
+	background-color: #eec0c6;
+	background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+	padding: 12px 10px;
+	width: 50%;
+	height: 200px;
+	text-align: center;
+	border-radius: 25px;
+}
